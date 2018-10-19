@@ -18,6 +18,10 @@ profile
 DerivedData
 *.hmap
 *.ipa
+#CocoaPods
+Pods
+!Podfile
+!Podfile.lock
 
 # Bundler
 .bundle
