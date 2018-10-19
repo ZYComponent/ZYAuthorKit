@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZYAuthorKit_Example' do
+  pod 'ZYAuthorKit', :path => '../'
+
+  target 'ZYAuthorKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
